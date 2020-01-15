@@ -166,6 +166,12 @@ inline-block: button, apparently also img	http://w3c.github.io/html-reference/im
 
     5. In your own words, explain the box model. What is the fix for the box model? 
 
+Unsure on what kind of fix or the fix for the box model. it has margin, border, padding, content, from outer layer to inner layer.
+margin-spacer from any other element, outside border.
+border- the outer drawing of a box, or any other element on the page.
+padding- space between the border and the the content, within the border.
+content- HTML content, whether it be text, photo, media, etc. 
+
 
    --> 
 
