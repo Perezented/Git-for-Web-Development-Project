@@ -2,41 +2,58 @@ https://codepen.io/Perezenting/pen/vYEaJqq?editors=1100
 
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-    1. What is Semantic HTML? 
-    It keeps HTML tidy. Used so humans know whats in the code and search engines and computers know what we are looking for specifically. H1 is weighed more than h6 or divs, p, etc.
+    1. What is Semantic HTML?     
+It keeps HTML tidy. Used so humans know whats in the code and search engines and computers know what we are looking for specifically. H1 is weighed more than h6 or divs, p, etc.
+
     2. What is HTML used for?
 	Design websites. 
+
     3. What is an attribute and where do we put it?
 	Extra info for our elements, examples such as ids and classes. 
+
     4. What is the h1 tag used for? How many times should I use it on a page?
 	Main heading of the page, the whole reason for it, hopefully just use it once.
+
     5. Name two tags that have required attributes
 	Links and img
+
     6. What do we put in the head of our HTML document? 
 Header, but also <!DOCTYPE html>. <head>
+
     7. What is an id? 
 	Css definer only to be used once. Can design and beautify the page.
+
     8. What elements can I add an id to? 
 	Any, just once
+
     9. How many times can I use the same id on a page? 
 	Only once.
+
     10. What is a class? 
 	Similar to id but can be used multiple times to change the look of the page.
+
     11. What elements can I add a class to? 
 	Any of them?
+
     12. How many times can I use the same class on a page? 
 	As many times as you want.
+
     13. How do I get my link to open in a new tab?
 	Control click on windows
+
     14. What is the alt attribute used for? 
 	Screen readers and accessibility
+
     15. How do I reference an id?
 	Element id=”idinfo”
 Css	#id
+
     16. What is the difference between a section and a div
 	Divs are more freely used, a section is talking about a specific section.
+
     17. What is CSS used for? 
 	Decorate a webpage, bring a little color to it and style.
+
     18. How to we select an element? Example - every h2 on the page
 In css just type the element you want, so       h2{
 }
@@ -44,29 +61,86 @@ In css just type the element you want, so       h2{
 
  Give me an example of when I might use each one
 	Class is what you should always use, id would only be used in my head If you want to override the class. Its heavier in weight.
+
     20. How do we select classes in CSS?
 Call it out with a  .		ex: .class
+
     21. How do we select a p element with a single class of “human””?
 p.human
+
     22. What is a parent child selector? When would this be useful? 
 	When you define an element deeper. The headings and divs and classes above it.
+
     23. How do you select all links within a div with the class of sidebar?
 Div link
+
     24. What is a pseudo selector?
+	targets an element in a specific state, we learned :hover
 
     25. What do we use the change the spacing between lines?
+in css line-height:15px
+
     26. What do we use to change the spacing between letters?
+in css letter-spacing: 5px
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+in css text-transform: uppercase;
+alt. lowercase
+alt. capitalize
+
     28. How do I add a 1px border around my div that is dotted and black?
+add a class
+in css, .class{
+border: 1px dotted black;
+}
+
     29. How do I select everything on the page? 
+control + a on windows
+
     30. How do I write a comment in CSS?
+start symbol /* and the end symbol */
+
     31. How do I find out what file I am in, when I am using the command line? 
+pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm <filename>
+
+it doesnt confirm you want to delete, just goes ahead with no warning prompt.
+
     34. Why should I use version control? 
+if something wonky happens, you could go back and look at previous versions. It's also nice and tidy.
+
     35. How often should I commit to github?
+Every major change
+
     36. What is the command we would use to push our repo up to github? 
+$ git push origin firstname-lastname
+
     37. Walk me through Lambda's git flow. 
+
+fork repo
+add tl as collaborator (in settings)
+open terminal o where you want to clone
+git clone <url>
+git checkout -b 'firstname-lastname' (makes the branch)
+git branch (should be in your own branch)
+modify your files you need to change
+git status
+git add .
+git status
+git commit -m 'what you ended up changing'
+git push origin firstname-lastname
+on github, on project page, base fork to your own
+ad reviewer(TL)
+add comments and send
+
+
+
+
 
 Stretch Questions
 
